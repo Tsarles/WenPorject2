@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Landing Page</title>
+    <link rel="stylesheet" href="/Assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="/Assets/images/logo-nike.png" alt="Nike Logo">
+            </a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/shop.html">Shop</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="/Assets/images/logo-nike.png" alt="Nike Product" class="hero-image">
+        <h1>Just Do It.</h1>
+        <p>Redefine your limits with Nike.</p>
+        <button onclick="shopNow()">Shop Now</button>
+    </section>
+
+    <section class="featured-section">
+        <h2>Featured Products</h2>
+        <p>Discover our latest innovations designed for peak performance</p>
+        <div class="featured-products">
+            <div class="featured-card">
+                <img src="/Assets/images/airmax.jpg" alt="Nike Air Max" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Nike Air Max</h3>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img src="/Assets/images/revolution.webp" alt="Nike Revolution" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Nike Revolution</h3>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img src="/Assets/images/downshifter.webp" alt="Nike Downshifter" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Nike Downshifter</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="story-section">
+        <div class="story-header">
+            <h1>Our Story</h1>
+            <p>From a humble beginning in 1964 to becoming a global leader in athletic footwear and apparel, Nike continues to inspire athletes everywhere with innovative products designed for peak performance.</p>
+            <button class="story-btn">Learn More</button>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for exclusive offers and updates.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="/Assets/images/logo-nike.png" alt="Nike Logo">
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Collections</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About Nike</h4>
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+                <a href="#" class="social-icon">YouTube</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Nike, Inc. All Rights Reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/Assets/js/script.js"></script>
+</body>
+</html>
